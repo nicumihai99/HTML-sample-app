@@ -1,23 +1,15 @@
 body {
    background-color: #bad7df;
+   position: center;
 }
 
 hr {
   border-style: none;
   border-top-style: dotted;
   height: 0px;
-  width: 5%;
+  width: 25%;
   border-color: grey;
   border-width: 4px;
-}
-
-@font-face{
-	font-family: 'RomanMorrissey';
-	src: url('WebFont.eot');
-	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-	     url('roman_morrissey_demo_webfont.woff') format('woff'),
-	     url('RomanMorrisseyDEMO.ttf') format('truetype'),
-	     url('WebFont.svg#webfont') format('svg');
 }
 
 h1 {
@@ -29,4 +21,8 @@ h1 {
 h3 {
   color: #142850;
   font-family: 'Dancing Script', cursive;
+}
+
+a {
+  font-family: 'Orbitron', sans-serif;
 }
