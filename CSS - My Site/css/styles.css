@@ -1,19 +1,36 @@
 body {
    background-color: #50d890;
    margin: 0px;
+   text-align: center;
+   font-family: monospace;
 }
 
 h1 {
-  margin: 0px;
+  margin: 0 auto 0 auto;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 562.5%;
+  /* font-size: 100% = 16px = 1em*/
+}
+
+h2 {
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
   margin: 0px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 200%;
 }
 
 .top {
   background-color: #4f98ca;
-  margin: 0px;/*
+  margin: 0px;
+  position: relative;
+  padding-top: 100px;/*
   width: 200px;
   height: 200px;
   border: solid 10px;
@@ -22,7 +39,7 @@ p {
 
 .mid {
   background-color: #effffb;
-  height: 200px;/*
+  /*height: 200px;/*
   width: 200px;
   border: solid 20px;
   margin-left: 260px;*/
@@ -30,7 +47,7 @@ p {
 
 .bottom {
   background-color: #272727;
-  height: 200px;/*
+  /*height: 200px;/*
   width: 200px;
   boder: solid 10px;
   margin-left: 500px;*/
@@ -38,4 +55,43 @@ p {
 
 .pro {
   text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 400px;
+  width: 10%;
+  height: 10%;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  width: 170px;
+}
+
+.mountain {
+  width: 70%;
+  height: 55%;
+  margin-bottom: 0px;
+}
+
+.copyright {
+  color: white;
+}
+
+.profile-photo{
+  /*filter: grayscale(55%);*/
+  border-radius: 50%;
+}
+
+.btn{
+  font-size: 150%;
+}
+
+.footer-link {
+  line-height: 4;
+  font-size: 140%;
 }
