@@ -1,5 +1,5 @@
 body {
-   background-color: #50d890;
+   background-color: #effffb;
    margin: 0px;
    text-align: center;
    font-family: monospace;
@@ -20,6 +20,7 @@ h2 {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -36,6 +37,7 @@ p {
   margin: 0px;
   font-family: 'Saira Semi Condensed', sans-serif;
   font-size: 200%;
+  line-height: 2;
 }
 
 .top {
@@ -56,6 +58,7 @@ p {
 
 .mid {
   background-color: #effffb;
+  margin: 100px 0;
   /*height: 200px;/*
   width: 200px;
   border: solid 20px;
@@ -77,21 +80,21 @@ p {
 
 .bottom-cloud {
   position: absolute;
-  left: 500px;
-  bottom: 400px;
+  left: 15%;
+  bottom: 60%;
   width: 10%;
   height: 10%;
 }
 
 .top-cloud {
   position: absolute;
-  top: 50px;
-  right: 300px;
+  top: 9%;
+  right: 33%;
   width: 170px;
 }
 
 .mountain {
-  width: 70%;
+  width: 100%;
   height: 55%;
   margin-bottom: 0px;
   border-radius: 15%
@@ -119,7 +122,6 @@ p {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .code{
@@ -150,4 +152,9 @@ hr {
   border-top: 5px dotted #05004e;
   width: 25%;
   margin-bottom: 30px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
 }
