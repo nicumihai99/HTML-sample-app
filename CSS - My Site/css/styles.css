@@ -3,21 +3,33 @@ body {
    margin: 0px;
    text-align: center;
    font-family: monospace;
+   color: #40514e;
 }
 
 h1 {
-  margin: 0 auto 0 auto;
   font-family: 'Lacquer', sans-serif;
   font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  color: #d55252;
+  line-height: 2;
   /* font-size: 100% = 16px = 1em*/
 }
 
 h2 {
   font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #394a6d;
+  font-size: 2em;
+}
+
+a{
+  color: #e6a400;
 }
 
 p {
@@ -28,6 +40,7 @@ p {
 
 .top {
   background-color: #4f98ca;
+  background-image: linear-gradient(to bottom, #4f98ca, #effffb);
   margin: 0px;
   position: relative;
   padding-top: 100px;/*
@@ -47,6 +60,7 @@ p {
 
 .bottom {
   background-color: #272727;
+  border-top: 100px;
   /*height: 200px;/*
   width: 200px;
   boder: solid 10px;
@@ -76,6 +90,7 @@ p {
   width: 70%;
   height: 55%;
   margin-bottom: 0px;
+  border-radius: 15%
 }
 
 .copyright {
@@ -94,4 +109,41 @@ p {
 .footer-link {
   line-height: 4;
   font-size: 140%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code{
+  width: 25%;
+  float: left;
+  margin-right: 35px;
+}
+
+.editing{
+  width: 25%;
+  float: right;
+  margin-left: 35px;
+}
+/*
+.code-skill-description{
+  clear: left;
+}
+
+.editing-skill-description{
+  clear: right;
+}*/
+
+hr {
+  border-top: 13px solid #66BFBF;
+}
+
+.contact-hr{
+  border-top: 5px dotted #05004e;
+  width: 25%;
+  margin-bottom: 30px;
 }
