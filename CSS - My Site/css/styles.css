@@ -41,6 +41,10 @@ p {
 .top {
   /*background-color: #4f98ca;*/
   background-image: linear-gradient(to bottom, #4f98ca, #effffb);
+  background-image: -moz-linear-gradient(#4f98ca,#effffb);
+  background-image: -ms-linear-gradient(#4f98ca,#effffb);
+  background-image: -webkit-linear-gradient(#4f98ca,#effffb);
+  background-image: -o-linear-gradient(#4f98ca,#effffb);
   margin: 0px;
   position: relative;
   padding-top: 100px;/*
