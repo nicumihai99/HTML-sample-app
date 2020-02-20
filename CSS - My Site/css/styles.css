@@ -39,7 +39,7 @@ p {
 }
 
 .top {
-  background-color: #4f98ca;
+  /*background-color: #4f98ca;*/
   background-image: linear-gradient(to bottom, #4f98ca, #effffb);
   margin: 0px;
   position: relative;
