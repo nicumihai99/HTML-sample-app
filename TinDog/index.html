@@ -3,58 +3,61 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>tindog</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,700i,900|Trade+Winds|Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/1f77dca6d6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <section id="title">
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="">tindog</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navbarToggler" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="pricingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pricing</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Premium</a>
-              <a class="dropdown-item" href="#">Regular</a>
-              <a class="dropdown-item" href="#">Custom</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Take me to free</a>
-            </div>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Download</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container-fluid">
 
-    <!--Title -->
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarToggler" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="pricingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pricing</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Premium</a>
+                <a class="dropdown-item" href="#">Regular</a>
+                <a class="dropdown-item" href="#">Custom</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Take me to free</a>
+              </div>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Title -->
 
       <div class="row">
         <div class="col-lg-6">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <h1 class="header-tindog">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
           <img src="images/iphone6.png" alt="iphone-mockup">
         </div>
 
-      <!--<div class="row">
+        <!--<div class="row">
         <div class="col-lg-2 col-md-3" style="background-color:blue;border:1px solid">
           col-md-3
         </div>
@@ -74,7 +77,7 @@
           col-md-3
         </div>
       </div>-->
-
+      </div>
   </section>
 
   <!-- Features -->
